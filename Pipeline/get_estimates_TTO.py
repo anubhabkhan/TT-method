@@ -265,7 +265,7 @@ for x in temp:
 	if x[:len('chr')]=='chr':
 		d=x.split('_')
 		#print(d)
-		pop_tuple=(d[1],d[3]))
+		pop_tuple=(d[1],d[3])
 		#print(pop_tuple=)
 		#input()
 		if not pop_tuple in COND_file_dict.keys():
